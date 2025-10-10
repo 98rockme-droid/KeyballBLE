@@ -69,10 +69,10 @@
 
         shortcut {
             bindings = <
-&trans  &trans  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP        &kp K_MUTE                                   &kp LG(TAB)           &kp LG(SPACE)           &kp LG(W)  &kp LG(T)  &kp LA(LC(T))
-&trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LCMD         &trans           &kp LC(K)  &kp LG(C)             &kp LG(V)               &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
-&trans  &trans  &trans                &trans                 &trans           &trans           &trans     &kp LG(LS(UP_ARROW))  &kp LG(LS(DOWN_ARROW))  &trans     &trans     &kp LA(LC(RIGHT_ARROW))
-&trans  &trans  &trans                &trans                 &kp LC(LS(TAB))  &kp LC(TAB)      &trans     &trans                                                              &kp LA(LC(LEFT_ARROW))
+&trans  &trans  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP        &kp K_MUTE                                        &kp LG(TAB)           &kp LG(SPACE)           &kp LG(W)  &kp LG(T)  &kp LA(LC(T))
+&trans  &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LCMD              &trans           &kp LC(K)  &kp LG(C)             &kp LG(V)               &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
+&trans  &trans  &kp LC(NUMBER_1)      &kp LG(LS(NUMBER_6))   &kp LG(LS(NUMBER_4))  &trans           &trans     &kp LG(LS(UP_ARROW))  &kp LG(LS(DOWN_ARROW))  &trans     &trans     &kp LA(LC(RIGHT_ARROW))
+&trans  &trans  &trans                &trans                 &kp LC(LS(TAB))       &kp LC(TAB)      &trans     &trans                                                              &kp LA(LC(LEFT_ARROW))
             >;
         };
 
