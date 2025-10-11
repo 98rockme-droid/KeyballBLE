@@ -70,7 +70,7 @@
         FUNCTION {
             bindings = <
 &kp LG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)            &kp LG(RIGHT_ARROW)    &trans                                               &kp LG(TAB)  &kp LG(SPACE)  &kp LG(W)  &kp LG(T)  &kp LA(LC(T))
-&trans              &trans        &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &mkp LCLK        &trans           &kp LC(K)          &kp LG(C)    &kp LG(F7)     &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
+&trans              &trans        &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &mkp LCLK        &trans           &kp LC(K)          &kp LG(C)    &kp LG(V)      &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
 &trans              &trans        &trans                &trans                 &mkp RCLK        &trans           &kp LG(BACKSPACE)  &trans       &trans         &trans     &trans     &kp LA(LC(RIGHT_ARROW))
 &trans              &trans        &trans                &trans                 &kp LC(LS(TAB))  &kp LC(TAB)      &trans             &trans                                            &kp LA(LC(LEFT_ARROW))
             >;
