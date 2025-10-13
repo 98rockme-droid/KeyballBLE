@@ -58,10 +58,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W     &kp E     &kp R                          &kp T                                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S     &kp D     &kp F                          &kp G        &mkp LCLK                          &kp SEMI              &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X     &kp C     &kp V                          &kp B        &mkp RCLK                          &kp LC(LA(LEFT_GUI))  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LALT  &kp LGUI  &lt_to_layer_0 6 LEFT_COMMAND  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE         &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W     &kp E     &kp R                       &kp T                                                              &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S     &kp D     &kp F                       &kp G        &mkp LCLK                          &kp LEFT_COMMAND   &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X     &kp C     &kp V                       &kp B        &mkp RCLK                          &kp LC(LG(SPACE))  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LALT  &kp LGUI  &lt_to_layer_0 6 SEMICOLON  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)            &kp LG(RIGHT_ARROW)    &trans                                               &kp LG(TAB)  &kp LG(SPACE)  &kp LG(W)  &kp LG(T)  &kp LA(LC(T))
-&trans              &trans        &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &mkp LCLK        &trans           &kp LC(K)          &kp LG(C)    &kp LG(V)      &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
-&trans              &trans        &trans                &trans                 &mkp RCLK        &trans           &kp LG(BACKSPACE)  &trans       &trans         &trans     &trans     &kp LA(LC(RIGHT_ARROW))
-&trans              &trans        &trans                &trans                 &kp LC(LS(TAB))  &kp LC(TAB)      &trans             &trans                                            &kp LA(LC(LEFT_ARROW))
+&kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(UP)            &kp LG(RIGHT_ARROW)    &trans                                               &kp LG(TAB)  &kp LG(SPACE)  &kp LG(W)  &kp LG(T)  &kp LA(LC(T))
+&trans              &trans            &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &mkp LCLK        &trans           &kp LC(K)          &kp LG(C)    &kp LG(V)      &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
+&trans              &kp LC(NUMBER_1)  &kp LG(LS(NUMBER_6))  &kp LG(LS(NUMBER_4))   &mkp RCLK        &trans           &kp LG(BACKSPACE)  &trans       &trans         &trans     &trans     &kp LA(LC(RIGHT_ARROW))
+&trans              &trans            &trans                &trans                 &kp LC(LS(TAB))  &kp LC(TAB)      &trans             &trans                                            &kp LA(LC(LEFT_ARROW))
             >;
         };
 
