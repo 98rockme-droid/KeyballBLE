@@ -70,8 +70,8 @@
         FUNCTION {
             bindings = <
 &kp LG(LEFT_ARROW)  &kp LG(DOWN)      &kp LG(UP)            &kp LG(RIGHT_ARROW)   &trans                                                              &kp LG(TAB)  &kp LG(SPACE)  &kp LG(W)  &kp LG(T)  &kp LA(LC(T))
-&trans              &trans            &kp LG(LEFT_BRACKET)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LS(NUMBER_4))      &kp LC(K)          &kp LG(C)    &kp LG(V)      &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
-&trans              &kp LC(NUMBER_1)  &kp LG(LS(NUMBER_6))  &kp LG(LS(NUMBER_4))  &kp LEFT_SHIFT         &kt LG(LS(NUMBER_6))      &kp LG(BACKSPACE)  &kp DELETE   &mkp LCLK      &trans     &trans     &kp LA(LC(T))
+&kp C_VOLUME_DOWN   &kp C_VOLUME_UP   &kp K_MUTE            &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(LS(NUMBER_4))      &kp LC(K)          &kp LG(C)    &kp LG(V)      &kp LG(Z)  &kp LG(A)  &kp LA(LC(E))
+&trans              &kp LC(NUMBER_1)  &kp LG(LS(NUMBER_6))  &kp LG(DOWN_ARROW)    &kp LEFT_SHIFT         &kt LG(LS(NUMBER_6))      &kp LG(BACKSPACE)  &kp DELETE   &mkp LCLK      &trans     &trans     &kp LA(LC(T))
 &trans              &trans            &trans                &trans                &kp LG(LA(LEFT))       &kp LG(LA(RIGHT))         &trans             &trans                                            &kp LA(LC(LEFT_ARROW))
             >;
         };
